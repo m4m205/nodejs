@@ -1,0 +1,22 @@
+{
+  "name": "wall",
+  "version": "1.0.0",
+  "description": "messages wall",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4m205/wall.git"
+  },
+  "author": "Mahmoud Almorahlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m4m205/wall/issues"
+  },
+  "homepage": "https://github.com/m4m205/wall#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
