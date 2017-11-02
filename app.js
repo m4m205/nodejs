@@ -10,7 +10,7 @@ const morgan     = require('morgan');
 // "mongodb://aaa:bbb@ds241065.mlab.com:41065/online_wall_of_messages"
 
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost/ch", {useMongoClient: true})
+mongoose.connect("mongodb://aaa:bbb@ds241065.mlab.com:41065/online_wall_of_messages", {useMongoClient: true})
         .then( () => { // check db connection
             console.log('MongoDB has been conneted');
         })
