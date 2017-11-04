@@ -50,7 +50,7 @@ app.use('/*', require('./controllers/react'));
 
 
 // Listen to port
-const port = 4000;
+const port = process.argv[2] || process.env.port || 4000;;
 app.listen( port, () => {
     console.log(`Server is listening on ${port}.`);
 });
