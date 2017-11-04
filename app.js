@@ -43,11 +43,10 @@ app.use(session({resave: true,secret: 'Mt8PxTrm~E{3`9]L',saveUninitialized:true}
 // add morgan for debugging
 app.use(morgan('combined'));
 
-
 // Routes
 app.use('/api', require('./controllers/APIcontrol'));
 app.use('/apiMessage', require('./controllers/APIcontrolMessage'));
-
+app.use('/*', require('./controllers/react'));
 
 
 // Listen to port
